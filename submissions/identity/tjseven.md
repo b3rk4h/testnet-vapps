@@ -65,7 +65,7 @@ Seven App enables cross-platform, privacy-first identity with ZK-proofs, combini
 Discord: tjseven
 
 **Checklist before submitting:**
-- [ ] All fields completed
-- [ ] GitHub username matches PR author  
-- [ ] SL integration explained
-- [ ] Timeline is realistic
+- [x] All fields completed
+- [x] GitHub username matches PR author  
+- [x] SL integration explained
+- [x] Timeline is realistic
