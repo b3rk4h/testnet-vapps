@@ -11,7 +11,7 @@ timestamp: "2025-08-21"
 - **Name**: TJ
 - **GitHub**: @b3rk4h
 - **Discord**: tjseven
-- **Experience**: Brief background
+- **Experience**: Web3 developer with 2+ years in dApps and ZK integrations
 
 ## Project
 
@@ -20,45 +20,49 @@ timestamp: "2025-08-21"
 - **Category**: identity
 
 ### Description
-What problem does your vApp solve? What does it do?
+Seven App provides decentralized, privacy-preserving identity.
+It solves the issue of relying only on wallet addresses or centralized logins by enabling verifiable identities across dApps using zero-knowledge proofs.
 
 ### SL Integration  
-How will you use Soundness Layer? What specific SL features?
+- Use SL to generate and verify ZK-proofs of identity.
+- Store attestations on SL for cross-dApp usage.
+- Integrate SL contracts for login/verification.
 
 ## Technical
 
 ### Architecture
-High-level system design and approach
+Frontend (React) → Backend (Node.js) → SL Contracts → IPFS/WALRUS storage.
+User logs in → generates ZK proof → proof verified on SL → access granted.
 
 ### Stack
-- **Frontend**: React/Vue/etc
-- **Backend**: Rust/Node.js/Python/etc  
-- **Blockchain**: SL + others
-- **Storage**: Database/WALRUS/IPFS/etc
+- **Frontend**: React
+- **Backend**: Node.js  
+- **Blockchain**: SL + EVM testnet
+- **Storage**: WALRUS/IPFS
 
 ### Features
-1. Core feature 1
-2. Core feature 2  
-3. Core feature 3
+1. Decentralized identity wallet
+2. ZK-based login/verification  
+3. Attestation registry
+4. User dashboard
 
 ## Timeline
 
 ### PoC (2-4 weeks)
-- [ ] Basic functionality
-- [ ] SL integration
-- [ ] Simple UI
+- Wallet login
+- SL proof generation
+- Basic UI
 
 ### MVP (4-8 weeks)  
-- [ ] Full features
-- [ ] Production ready
-- [ ] User testing
+- Full verification + registry
+- Dashboard integration
+- Community testing
 
 ## Innovation
-What makes this unique? Why will people use it?
+Seven App enables cross-platform, privacy-first identity with ZK-proofs, combining self-sovereign identity and interoperability in Web3.
 
 ## Contact
-Preferred contact method and where you'll share updates.
-
+Discord: tjseven
 
 **Checklist before submitting:**
 - [ ] All fields completed
