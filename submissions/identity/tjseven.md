@@ -49,14 +49,14 @@ User logs in → generates ZK proof → proof verified on SL → access granted.
 ## Timeline
 
 ### PoC (2-4 weeks)
-- Wallet login
-- SL proof generation
-- Basic UI
+- [ ] Wallet login  
+- [ ] SL proof generation  
+- [ ] Basic UI  
 
-### MVP (4-8 weeks)  
-- Full verification + registry
-- Dashboard integration
-- Community testing
+### MVP (4-8 weeks)
+- [ ] Full verification + registry  
+- [ ] Dashboard integration  
+- [ ] Community testing  
 
 ## Innovation
 Seven App enables cross-platform, privacy-first identity with ZK-proofs, combining self-sovereign identity and interoperability in Web3.
